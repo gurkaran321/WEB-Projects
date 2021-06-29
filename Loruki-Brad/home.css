@@ -1,0 +1,242 @@
+/* Deployment Section */
+
+.deployment {
+    display: flex;
+    padding: 4rem 0;
+    background: #047aed;
+    color: white;
+}
+
+.deployment--easy {
+    padding: 1rem;
+}
+
+.deployment--easy * {
+    margin: 16px auto;
+}
+
+.deployment--easy .btn {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px white solid;
+    border-radius: 2px;
+}
+
+.deployment--demo {
+    width: 50%;
+    padding: 48px 20px;
+    border: 1px solid white;
+    margin: auto 25px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+}
+
+.deployment--demo h2 {
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+.deployment--demo form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.deployment--demo form input {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    font-size: 16px;
+    padding: 3px;
+    width: 100%;
+}
+
+input [placeholder="Company"] {
+    margin: 15px 0;
+}
+
+form .btn-primary {
+    background-color: #047aed;
+    color: white;
+    text-align: left;
+    width: fit-content;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*
+.deployment:before,
+.deployment::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    transform: skewY( -3deg);
+    background-color: #fff;
+}
+
+*/
+
+
+/* Work Section */
+
+.work {
+    padding: 3rem 0;
+}
+
+.work .work__text {
+    text-align: center;
+    margin: 0 10rem;
+}
+
+.work__numbers {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.work__number figure i {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+figcaption {
+    font-size: 35px;
+    text-align: left;
+}
+
+.caption {
+    color: #047aed;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* lorki install */
+
+.lorki--install {
+    display: flex;
+    align-items: center;
+}
+
+.install__img {
+    width: 50%;
+}
+
+.install__img img {
+    max-width: 100%;
+}
+
+.install--props {
+    margin: auto;
+}
+
+.install--prop {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding: 20px;
+    margin: 10px;
+}
+
+.install--prop+.install--prop {
+    margin-top: 2rem;
+}
+
+
+/*Hosting Section */
+
+.hosting {
+    background-color: #047aed;
+    display: flex;
+    color: white;
+    padding: 0 40px;
+    margin: 32px 0;
+}
+
+.hosting--text {
+    text-align: center;
+    align-self: center;
+}
+
+.hosting--text h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+.hosting--text p {
+    font-size: 20px;
+    margin: 1rem 0;
+    font-weight: 100;
+}
+
+.hosting--text button {
+    color: white;
+    background-color: #002240;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hosting__img {
+    width: 50%;
+    padding: 16px;
+}
+
+.hosting__img img {
+    height: 100%;
+    width: 100%;
+    max-width: min-content;
+}
+
+
+/* Languages Section */
+
+.languages {
+    display: grid;
+}
+
+.languages h1 {
+    text-align: center;
+    font-weight: 100;
+    margin: 1.5rem 0;
+}
+
+.language__logos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.language__logo {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding: 20px;
+    margin: 18px 10px 40px;
+    text-align: center;
+    transition: transform 0.2s ease-in;
+}
+
+.language__logo:hover {
+    transform: translateY(-15px);
+}
+
+.container {
+    padding: 48px 10vw;
+}
