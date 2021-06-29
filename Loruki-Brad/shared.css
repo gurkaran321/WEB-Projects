@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    margin: auto;
+}
+
+.container {
+    padding: 0 10vw;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #047aed;
+    color: white;
+    align-items: center;
+}
+
+.main-logo {
+    font-size: 2rem;
+}
+
+.main-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.main-items li {
+    margin: auto 5px;
+}
+
+.main-item a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.main-item a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/* Footer Section */
+
+.main--footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #002240;
+    color: white;
+    align-items: center;
+    padding: 48px 10px;
+}
+
+.footer--items,
+.socialmedia--icons {
+    list-style: none;
+}
+
+.socialmedia--icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.scoialmedia--icon {
+    margin: 0 15px;
+}
