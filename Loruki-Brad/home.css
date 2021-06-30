@@ -206,10 +206,6 @@ figcaption {
 
 /* Languages Section */
 
-.languages {
-    display: grid;
-}
-
 .languages h1 {
     text-align: center;
     font-weight: 100;
@@ -228,7 +224,7 @@ figcaption {
     border-radius: 10px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
     padding: 20px;
-    margin: 18px 10px 40px;
+    margin: 18px 5px;
     text-align: center;
     transition: transform 0.2s ease-in;
 }
